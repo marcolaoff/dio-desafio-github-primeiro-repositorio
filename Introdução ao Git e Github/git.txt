@@ -9,6 +9,11 @@ Git init (inicia)
 Git add (modifica)(move)(adiciona)
 Git commit(finaliza as modificações)
 Git commit -m "descrição do commit"
+git commit -m "descrição do commit" 
+quando fomos fazer um commit temos que ter um autor atrelado a ele:
+-> comandos: git config --global user.email "email a ser utlizado"
+-> git config --global user.name (nome a ser utilizado) de preferencia o que estiver no github
+
 Git status(vai ajudar a monitorar os status dos arquivos, vai nos dizer se aquele arquivo está untracked, modified, staged, ele é
 um comando utilizado com muita frequência.)
 mv (terminal)(mover arquivos) ./ para escolher a pasta
