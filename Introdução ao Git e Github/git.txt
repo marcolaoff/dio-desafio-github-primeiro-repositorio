@@ -1,0 +1,31 @@
+Hey guys, does anyone have a dough for trade?
+
+download git ---> https://git-scm.com
+
+ls -a (mostra arquivos ocultos)
+cd .. (volta 1 nivel)
+crtl + l (limpa o terminal)
+Git init (inicia)
+Git add (modifica)(move)(adiciona)
+Git commit(finaliza as modificações)
+Git commit -m "descrição do commit"
+Git status(vai ajudar a monitorar os status dos arquivos, vai nos dizer se aquele arquivo está untracked, modified, staged, ele é
+um comando utilizado com muita frequência.)
+mv (terminal)(mover arquivos) ./ para escolher a pasta
+echo > (cria arquivos)
+git add *(pega tudo que foi modificado e adiciona para o staged)
+
+git config --list (vai trazer todas as configurações que estão especificamente no seu git)
+git config --global --unset (propriedade da alteração ex: user.email) (para alterações dentro das configurações)
+
+https://github.com/marcolaoff/livro-receitas.git
+
+git remote add origin URL (adicionar a origem)
+git remote -v (vai listar as listas de repositorios remotos que estão cadastrados)
+git push origin master (vai empurar o código para o repositorio do github)
+git pull origin master (vai puxar o conteúdo do github para o respositorio local)
+depois do pull e de resolver os problemas podemos dar commit novamente e depois o push para o github
+git clone URL (para clonar todo um codigo do github)
+
+cd repositorio!!! - https://github.com/marcolaoff/dio-desafio-github-primeiro-repositorio.git
+	
