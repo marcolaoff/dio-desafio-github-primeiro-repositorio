@@ -1,4 +1,4 @@
-Hey guys, does anyone have a dough for trade?
+Comandos básicos para o git
 
 download git ---> https://git-scm.com
 
@@ -14,6 +14,10 @@ um comando utilizado com muita frequência.)
 mv (terminal)(mover arquivos) ./ para escolher a pasta
 echo > (cria arquivos)
 git add *(pega tudo que foi modificado e adiciona para o staged)
+cat - para visualizar o conteúdo de uma das chaves SSH - toda máquina nova criar a ssh 
+pwd - vai nos mostrar o caminho completo 
+iniciar o ssh agente - comando:eval $(ssh-agent -s)
+depois entregar a chave pro agent - código: ssh-add (chave-ssh privada)
 
 git config --list (vai trazer todas as configurações que estão especificamente no seu git)
 git config --global --unset (propriedade da alteração ex: user.email) (para alterações dentro das configurações)
@@ -21,7 +25,6 @@ git config --global --unset (propriedade da alteração ex: user.email) (para al
 Sequência -> Git init (Git Bash here) -> depois das modificações -> Git add * (para adicionar todas as modificações) -> 
 git commit -m "com a mensagem do commit" -> git push origin main -> depois disso todos os commits vão para o github 
 
-https://github.com/marcolaoff/livro-receitas.git
 
 git remote add origin URL (adicionar a origem)
 git remote -v (vai listar as listas de repositorios remotos que estão cadastrados)
@@ -31,5 +34,4 @@ depois do pull e de resolver os problemas podemos dar commit novamente e depois 
 git clone URL (para clonar todo um codigo do github)
 
 
-cd repositorio!!! - https://github.com/marcolaoff/dio-desafio-github-primeiro-repositorio.git
-	
+cd repositorio
